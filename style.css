@@ -1,0 +1,53 @@
+html,body
+{
+	margin:0;
+	padding:0;
+	background:#C4D0FF;
+	height:100%;
+	width:100%;
+}
+form#signin
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+form#signin input[type="text"]
+{
+	width:300px;
+	height:20px;
+	line-height:20px;
+	font-size:20px;
+	display: block;
+}
+#userlist {
+	float: right;
+	list-style-type: none;
+	font-weight: bold;
+	background: white;
+}
+#userlist ul:nth-child(1) {
+	color: red;
+}
+#userlist ul:nth-child(2) {
+	color: blue;
+}
+#userlist ul:nth-child(3) {
+	color: green;
+}
+#userlist ul:nth-child(4) {
+	color: yellow;
+}
+#game_map {
+	background: #444444;
+	border: 1px solid black;
+}
+#win_screen {
+	font-size: 300%;
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 640px;
+	text-align: center;
+	display: none;
+}
